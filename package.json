@@ -1,0 +1,36 @@
+{
+  "name": "h5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt",
+    "generate": "nuxt generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomoney/h5.git"
+  },
+  "author": "zym8810",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nomoney/h5/issues"
+  },
+  "homepage": "https://github.com/nomoney/h5#readme",
+  "dependencies": {
+    "@nuxt/content": "^1.6.1",
+    "@nuxtjs/color-mode": "^1.0.3",
+    "@nuxtjs/tailwindcss": "^3.0.0",
+    "lodash": "^4.17.20",
+    "nuxt": "^2.14.3",
+    "tailwindcss": "^1.7.3"
+  },
+  "devDependencies": {
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "tailwindcss-dark-mode": "^1.1.6"
+  }
+}
