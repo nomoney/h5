@@ -2,10 +2,10 @@
     .container
         h3.container(class="text-5xl text-center") 
             span(class="inline-block w-20 bg-gray-100 h-1 align-middle mx-8")
-            |H5作品
+            |H5模板
             span(class="inline-block w-20 bg-gray-100 h-1 align-middle mx-8")
-        theme-category
-        example
+
+        AppExample
             
         nuxt-content(:document="docs")
 </template>

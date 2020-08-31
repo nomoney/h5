@@ -1,15 +1,18 @@
 <template lang="pug">
     .w-full
-        header(class="h-16")
+        header(class="w-full h-16 z-10")
             div(class="mx-auto container flex")
-                .logo(class="text-3xl") logos
+                .logo(class="text-3xl")
+                    |xlazy
                 .menu(class="text-3xl w-3/4 text-center")
                     nuxt-link(to="/") 首页
                     nuxt-link(to="/example") 作品
                     nuxt-link(to="/about") 关于
-                .right
-
+   
+        AppSwiper
         main(class="mx-auto container")
+           
+            AppSearch
             nuxt(class="mx-auto")
         footer
             |bottom

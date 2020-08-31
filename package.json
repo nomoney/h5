@@ -1,5 +1,5 @@
 {
-  "name": "h5",
+  "name": "h5.xlazy.com",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -24,7 +24,9 @@
     "@nuxtjs/tailwindcss": "^3.0.0",
     "lodash": "^4.17.20",
     "nuxt": "^2.14.3",
-    "tailwindcss": "^1.7.3"
+    "swiper": "^6.1.2",
+    "tailwindcss": "^1.7.3",
+    "vue-awesome-swiper": "^4.1.1"
   },
   "devDependencies": {
     "pug": "^3.0.0",
